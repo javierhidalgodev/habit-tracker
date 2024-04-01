@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      <h1 className="py-2 font-bold">Habit Tracker</h1>
+      <h1 className="py-2 font-bold">Calendar</h1>
       <Calendar />
     </>
   )

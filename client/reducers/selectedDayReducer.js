@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const selectedDayReducer = createSlice({
   name: 'selectedDay',
-  initialState: new Date().toISOString(),
+  initialState: new Date().toDateString(),
   reducers: {
     setSelectedDay (state, action) {
       return action.payload

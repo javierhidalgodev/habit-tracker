@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 #root {
-  @apply w-[900px] h-screen mx-auto p-3 flex flex-col;
+  @apply h-screen mx-auto p-3 flex flex-col items-center;
 }
 
 h1 {

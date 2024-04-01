@@ -9,12 +9,14 @@ import selectedDayReducer from '../reducers/selectedDayReducer.js'
 import currentDayReducer from '../reducers/currentDayReducer.js'
 import currentMonthReducer from '../reducers/currentMonthReducer.js'
 import currentDaysReducer from '../reducers/currentDaysReducer.js'
+import currentYearReducer from '../reducers/currentYearReducer.js'
 
 const store = configureStore({
     reducer: {
         selectedDay: selectedDayReducer,
         currentDay: currentDayReducer,
         currentMonth: currentMonthReducer,
+        currentYear: currentYearReducer,
         currentDays: currentDaysReducer
     }
 })
